@@ -3,7 +3,7 @@ p { margin: 5px 0 10px 0; }
 
 body
 {
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Noto Sans JP', sans-serif;
 		height:auto;
 		width:auto;
 		display: block;
@@ -13,4 +13,119 @@ body
 {
 	height: 30px; 
 	width: 30px; 
+}
+header
+{
+	position: center;
+	background-color: #696969;
+	margin: 0px;
+	border: 2px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+    position: relative;	
+}
+.hdiv
+{
+	height: 95px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+article
+{
+	height:500px;
+	width:350px;
+	float: left;
+	margin: 1px;
+	border: 2px solid black;
+	display: block;
+    position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+nav
+{
+	position: relative;
+	float: left;
+	background-color: #3B3A3D;
+	color: white;
+	margin-top: 2px;
+}
+main
+{
+	display: block;
+	position: relative;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+	
+}
+.image
+{
+	position: relative;
+	width: 180px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.first_item
+{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+.h_text
+{
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14pt;
+	text-decoration: none;
+	transition: 0.3s;
+	width: 350px;
+	height: 50px;
+}
+.h_text:hover
+{
+	font-size: 15pt;
+	transition: 0.3s;
+}
+.price
+{
+	position: relative;
+	margin-top: auto;
+	display: block;
+	float: left;
+	width: 260px;
+	height: 40px;
+}
+.button
+{
+	position: relative;
+	float: left;
+	width: 80px;
+	height: 20px;
+	background-color: green;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 3px;
+	transition: 0.3s;
+}
+.button:hover
+{
+	color: black;
+	background-color: #00FF7F;
+	transition: 0.3s;
+}
+.description
+{
+	height: 145px;
+	width: 350px;
+	display: block;
 }
